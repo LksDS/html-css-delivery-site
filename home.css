@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+#top-title{
+    display: grid;
+    grid-template-columns: 1fr 538px;
+    position: relative;
+    top: -20px;
+    justify-content: end;
+    justify-items: center;
+    align-items: start;
+    background-color: #FA963F;
+    height: 524px;
+}
+#top-title-logo{
+    width: 240px;
+    position: absolute;
+    top: 140px;
+    left: 0;
+}
+#top-title >div{
+    margin-top: 120px;
+    padding-left: 100px;
+}
+#top-title h1{
+    font-size: 8rem;
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#top-title p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}

@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    padding: 20px 100px;
+    padding-top: 10px;
+    border-radius: 0 0 20px 20px ;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header *{
+    margin-right: 90px;
+}
+header img{
+    height: 80px;
+}
+header a{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #D88237;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
