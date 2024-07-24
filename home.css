@@ -3,10 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: red;
-}
 #top-title{
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 538px;
     position: relative;
@@ -38,4 +36,71 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 2rem;
+}
+#card-container{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;    
+    justify-content: space-between;
+}
+#card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#card{
+    width: 340px;
+    height: 340px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: blue;
+    -webkit-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.75);
+    background-color: #FA963F;
+    background-image: linear-gradient(to bottom, rgba(255,241,112,0), rgba(255,241,112,.5));
+    transition: .5s;
+    position: relative;
+}
+#card > h4{
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#card > h4>span{
+    color: red;
+    -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+}
+#card >div{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+#card >div>p{
+    width: 160px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#card >div>svg{
+    position: absolute;
+    height: 70px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-120%,-50%);
+    fill: red;
+}
+#card>img{
+    height: 170px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-100%);
 }
