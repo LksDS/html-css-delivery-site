@@ -10,17 +10,19 @@
     justify-content: end;
     justify-items: center;
     align-items: end;
+    position: relative;
     background-color: #FA963F;
     height: 624px;
 }
 #top-title-logo{
-    width: 240px;
+    height: 200px;
     position: absolute;
-    top: 240px;
+    top: 50%;
     left: 0;
+    transform: translate(0,-50%);
 }
 #top-title >div{
-    margin-bottom: 220px;
+    align-self: center;
     padding-left: 100px;
 }
 #top-title h1{
@@ -41,12 +43,17 @@
     margin: auto;
     margin-bottom: 70px;    
     justify-content: space-between;
+    list-style-type: none;
 }
-#card:hover{
+.card:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
-#card{
+#card-container:has(.card:hover) .card:not(:hover){
+    filter: blur(2px);
+}
+
+.card{
     width: 340px;
     height: 340px;
     border-radius: 30px;
@@ -57,10 +64,10 @@
     box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.75);
     background-color: #FA963F;
     background-image: linear-gradient(to bottom, rgba(255,241,112,0), rgba(255,241,112,.5));
-    transition: .5s;
+    transition: all .5s ease-out;
     position: relative;
 }
-#card > h4{
+.card > h4{
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     text-transform: uppercase;
@@ -69,25 +76,25 @@
     text-align: center;
     margin-bottom: 30px;
 }
-#card > h4>span{
+.card > h4>span{
     color: red;
     -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: black;
 }
-#card >div{
+.card >div{
     background-color: white;
     padding: 15px;
     border-radius: 20px;
     position: relative;
 }
-#card >div>p{
+.card >div>p{
     width: 160px;
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 1.5rem;
 }
-#card >div>svg{
+.card >div>svg{
     position: absolute;
     height: 70px;
     top: 50%;
@@ -95,7 +102,7 @@
     transform: translate(-120%,-50%);
     fill: red;
 }
-#card>img{
+.card>img{
     height: 170px;
     position: absolute;
     top: 100%;

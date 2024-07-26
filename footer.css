@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+footer >img{
+    margin-bottom: 20px;
+    height: 140px;
+}
+footer > div{
+    display: flex;
+}
+footer >div >svg:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+footer >div >svg{
+    margin: 0 10px;
+    height: 36px;
+    width: 36px;
+    fill: white;
+    transition: all .5s;
+}
