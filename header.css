@@ -4,7 +4,9 @@ header{
     padding-top: 10px;
     border-radius: 0 0 20px 20px ;
     background-color: white;
-    position: sticky;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
     top: 0;
     z-index: 1;
 }
