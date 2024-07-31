@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    padding-top: 200px;
+    padding-top: 150px;
     background-color: #FA963F;
 }
 h1{
@@ -13,4 +13,58 @@ h1{
     letter-spacing: 20px;
     text-align: center;
     margin-bottom: 40px;
+}
+form{
+    color: white;
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 20px;
+}
+form> .row{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+}
+form label{
+    display: inline-block;
+    width: 100%;
+    font-size: 24px;
+}
+form > .row > input{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    background-color: #D9D9D9;
+}
+form > textarea{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    margin-bottom: 15px;
+    resize: vertical;
+    min-height: 300px;
+}
+form > label{
+    margin-bottom: 20px;
+}
+form > input[type=submit]{
+    background-color: #04db00b6;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    color: white;
 }
