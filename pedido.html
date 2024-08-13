@@ -32,13 +32,13 @@
             <input type="text" name="nome" id="" required>
         </div>
         <div class="row"><label for="cep"> Cep:</label>
-            <input type="number" name="cep" id="" required>
+            <input type="text" name="cep" id="cepInput" maxlength="10" oninput="padraoCEP()" pattern="\d{2}\.\d{3}-\d{3}" title="o Cep deve seguir o padrão 99.999-999" required>
         </div>
         <div class="row"><label for="cartao-numero"> Número do cartão:</label>
             <input type="number" inputmode="numeric" name="cartao-numero" id="" required>
         </div>
         <div class="row"><label for="cvv"> Cvv:</label>
-            <input type="number" name="cvv" id="" required>
+            <input type="text" name="cvv" id="cvv-input" maxlength="3" pattern="[0-9]{3}" title="o Cvv de um cartão apenas contém 3 números" required>
         </div>
         <div class="row"><label for="data-vencimento"> Data de vencimento:</label>
             <input type="month" name="data-vencimento" id="" required>
@@ -60,5 +60,6 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
         </div>
     </footer>
+    <script src="pedido.js"></script>
 </body>
 </html>
