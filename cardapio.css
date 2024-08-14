@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    padding-top: 100px;
+    background-color: #fa963f;
+    padding-bottom: 40px;
+    font-family: "Crushed", sans-serif;
+    font-size: 8.5rem;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+  header{
+    position: relative;
+    border-radius: 0;
+  }
+  #opcoes-cardapio{
+    height: 88px;
+  }
+  #opcoes-cardapio svg, img{
+    height: 35px;
+  }
