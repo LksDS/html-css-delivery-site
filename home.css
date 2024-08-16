@@ -12,7 +12,8 @@
     align-items: end;
     position: relative;
     background-color: #FA963F;
-    height: 624px;
+    height: 514px;
+    overflow: hidden;
 }
 #top-title-logo{
     height: 200px;
