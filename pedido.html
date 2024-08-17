@@ -35,7 +35,7 @@
             <input type="text" name="cep" id="cepInput" maxlength="10" oninput="padraoCEP()" pattern="\d{2}\.\d{3}-\d{3}" title="o Cep deve seguir o padrão 99.999-999" required>
         </div>
         <div class="row"><label for="cartao-numero"> Número do cartão:</label>
-            <input type="number" inputmode="numeric" name="cartao-numero" id="" required>
+            <input type="text" inputmode="numeric" id="cartaoCreditoInput" name="cartao-numero" maxlength="19" pattern="\d{4} \d{4} \d{4} \d{4}" oninput="padraoCartaoCredito()" title="o número de cartão de crédito deve seguir o padrão 9999 9999 9999 9999" required>
         </div>
         <div class="row"><label for="cvv"> Cvv:</label>
             <input type="text" name="cvv" id="cvv-input" maxlength="3" pattern="[0-9]{3}" title="o Cvv de um cartão apenas contém 3 números" required>
