@@ -44,7 +44,7 @@ header {
 img {
   height: 35px;
 }
-a#hamburguer {
+a.hamburguer {
   border-top: 4px solid #ff0000;
 }
 #hamburguer svg {
@@ -53,10 +53,10 @@ a#hamburguer {
 #hamburguer span {
   color: #ff0000;
 }
-p#hamburguer {
+p.hamburguer {
   background-color: #ff0000;
 }
-h2#hamburguer {
+h2.hamburguer {
   color: #ff0000;
 }
 #hamburguer-section .cardapio-opcoes div {
@@ -66,7 +66,7 @@ h2#hamburguer {
 .cardapio-opcoes div:hover{
   cursor: pointer;
 }
-a#combos {
+a.combos {
   border-top: 4px solid rgba(237, 114, 0, 0.7);
 }
 #combos img {
@@ -76,16 +76,16 @@ a#combos {
 #combos span {
   color: rgba(237, 114, 0, 0.7);
 }
-p#combos {
+p.combos {
   background-color: rgba(237, 114, 0, 0.7);
 }
-h2#combos {
+h2.combos {
   color: rgba(237, 114, 0, 0.7);
 }
 #combos-section .cardapio-opcoes div {
   border: 1px solid rgba(237, 114, 0, 0.5);
 }
-a#acompanhamentos {
+a.acompanhamentos {
   border-top: 4px solid rgba(220, 198, 0, 0.71);
 }
 #acompanhamentos img {
@@ -95,16 +95,16 @@ a#acompanhamentos {
 #acompanhamentos span {
   color: rgba(220, 198, 0, 0.71);
 }
-p#acompanhamentos {
+p.acompanhamentos {
   background-color: rgba(220, 198, 0, 0.71);
 }
-h2#acompanhamentos {
+h2.acompanhamentos {
   color: rgba(220, 198, 0, 0.71);
 }
 #acompanhamentos-section .cardapio-opcoes div {
   border: 1px solid rgba(220, 198, 0, 0.51);
 }
-a#bebidas {
+a.bebidas {
   border-top: 4px solid rgba(21, 59, 255, 0.8);
 }
 #bebidas img {
@@ -114,16 +114,16 @@ a#bebidas {
 #bebidas span {
   color: rgba(21, 59, 255, 0.8);
 }
-p#bebidas {
+p.bebidas {
   background-color: rgba(21, 59, 255, 0.8);
 }
-h2#bebidas {
+h2.bebidas {
   color: rgba(21, 59, 255, 0.8);
 }
 #bebidas-section .cardapio-opcoes div {
   border: 1px solid rgba(21, 59, 255, 0.6);
 }
-a#sobremesas {
+a.sobremesas {
   border-top: 4px solid rgba(255, 67, 214, 0.65);
 }
 #sobremesas img {
@@ -133,16 +133,16 @@ a#sobremesas {
 #sobremesas span {
   color: rgba(255, 67, 214, 0.65);
 }
-p#sobremesas {
+p.sobremesas {
   background-color: rgba(255, 67, 214, 0.65);
 }
-h2#sobremesas {
+h2.sobremesas {
   color: rgba(255, 67, 214, 0.65);
 }
 #sobremesas-section .cardapio-opcoes div {
   border: 1px solid rgba(255, 67, 214, 0.45);
 }
-a#lancamentos {
+a.lancamentos {
   border-top: 4px solid rgba(83, 255, 80, 0.65);
 }
 #lancamentos img {
@@ -152,10 +152,10 @@ a#lancamentos {
 #lancamentos span {
   color: rgba(83, 255, 80, 0.65);
 }
-p#lancamentos {
+p.lancamentos {
   background-color: rgba(83, 255, 80, 0.65);
 }
-h2#lancamentos {
+h2.lancamentos {
   color: rgba(83, 255, 80, 0.65);
 }
 #lancamentos-section .cardapio-opcoes div {
